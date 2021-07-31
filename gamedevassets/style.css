@@ -6,12 +6,29 @@ h1 {
     color: #ffffff;
 }
 
-/* unvisited link */
-a:link {
-    color: white;
-}
+a {
+    outline: none;
+    text-decoration: underline;
+    padding: 2px 1px 0;
+  }
   
-/* visited link */
-a:visited {
-    color: #dddddd;
-}
+  a:link {
+    color: #ffffff;
+  }
+  
+  a:visited {
+    color: #cccccc;
+  }
+  
+  a:focus {
+    outline: #555555;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+  }
+  
+  a:active {
+    border-bottom: 1px solid;
+    color: #787878;
+  }
