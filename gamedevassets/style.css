@@ -5,3 +5,13 @@ body {
 h1 {
     color: #ffffff;
 }
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+  
+/* visited link */
+a:visited {
+    color: #dddddd;
+}
