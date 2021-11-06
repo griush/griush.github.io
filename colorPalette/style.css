@@ -1,5 +1,6 @@
 body {
     background-color: #222222;
+    
 }
 
 p {
@@ -10,6 +11,11 @@ p {
 
 a {
     color: white;
+}
+
+.page {
+    margin: auto;
+    margin-top: 10%;
 }
 
 .title {
