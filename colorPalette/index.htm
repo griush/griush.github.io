@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Palette</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="title">
+            <h1>Color Palette</h1>
+            <h3>by griush (<a href="https://github.com/griush" target="_blank">https://github.com/griush</a>)</h3>
+        </div>
+        <div class="palette">
+            <canvas id="first_canvas"  width="200" height="200" style="border:2px solid #ffffff;"></canvas>
+            <canvas id="second_canvas" width="200" height="200" style="border:2px solid #ffffff;"></canvas>
+            <canvas id="third_canvas"  width="200" height="200" style="border:2px solid #ffffff;"></canvas>
+            <canvas id="fourth_canvas" width="200" height="200" style="border:2px solid #ffffff;"></canvas>
+            
+            <br>
+
+            <p>R</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="first_r">
+            <p>R</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="second_r">
+            <p>R</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="third_r">
+            <p>R</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="fourth_r">
+
+            <br>
+            
+            <p>G</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="first_g">
+            <p>G</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="second_g">
+            <p>G</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="third_g">
+            <p>G</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="fourth_g">
+
+            <br>
+            
+            <p>B</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="first_b">
+            <p>B</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="second_b">
+            <p>B</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="third_b">
+            <p>B</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="fourth_b">
+
+            <br>
+            <br>
+
+            <p class="output" id="first_o">(255, 255, 255)</p>
+            <p class="output" id="second_o">(255, 255, 255)</p>
+            <p class="output" id="third_o">(255, 255, 255)</p>
+            <p class="output" id="fourth_o">(255, 255, 255)</p>
+        </div>
+    </body>
+</html>
